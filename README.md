@@ -136,11 +136,11 @@ All prerequisites for the second stage of the project, focused on Components, ha
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Coming Soon](https://github.com/faisalakb/Math-Magician)
+[Coming Soon]
 
 ## 🚀 Live Recording <a name="live-demo"></a>
 
-[Coming Soon]()
+[Coming Soon]
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
