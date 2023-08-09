@@ -1,75 +1,85 @@
+
 .calculator {
   border: 2px solid #ccc;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   background-color: white;
-  width: 300px;
+  width: 400px; /* Adjusted width */
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  position: relative;
 }
 
 .calculator input[type="text"] {
-  padding: 10px;
   font-size: 18px;
-  margin-bottom: 10px;
   border: 1px solid #ccc;
   background-color: grey;
   border-radius: 5px;
-  width: 100%;
+  width: 90%;
+  height: 15%;
   color: white;
-}
-
-.calculator .buttons {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
+  margin-top: -4%;
+  position: absolute;
 }
 
 .calculator .numbers {
-  grid-column: 1 / 2;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-}
-
-.calculator .operators {
-  grid-column: 2 / 3;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
+  position: absolute;
+  margin-top: 21%;
 }
 
 .calculator button {
   padding: 10px;
-  font-size: 16px;
+  font-size: 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  width: 60px;
+  width: 92px;
   text-align: center;
 }
 
-.calculator button.operator {
-  background-color: #f0ad4e;
-  color: white;
-  display: none;
-}
-
-.calculator button.clear {
-  background-color: orange;
-  color: white;
-}
-
 .calculator button.zero {
-  width: 130px;
+  width: 195px;
 }
 
 .zeroDiv {
   display: flex;
   flex-direction: row;
   column-gap: 10px;
-  margin-top: 10px;
+  position: absolute;
+  margin-top: 57%;
+}
+
+.operators {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.operation {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+  align-self: flex-end;
+  margin-top: 10%;
+}
+
+.operation button {
+  background-color: orange;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 9%;
+  position: absolute;
+}
+
+.top button.clear {
+  background-color: red;
 }
