@@ -245,8 +245,7 @@ This project is deployed at github pages you can clone it here. [Please click to
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Project 2: Components.**
-- [ ] **Project 3: Events.**
+
 - [ ] **Project 4: Fetch data from API**
 - [ ] **Project 5: Full website.**
 - [ ] **Project 6: Tests (pair programming).**
