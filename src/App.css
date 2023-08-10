@@ -42,6 +42,18 @@
   text-align: center;
 }
 
+.operation button {
+  background-color: orange;
+}
+
+.calculator button:hover { background-color: rgb(186, 185, 185); }
+
+.calculator button:active {
+  background-color: rgb(158, 155, 155);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 .calculator button.zero {
   width: 195px;
 }
@@ -68,10 +80,6 @@
   margin-top: 10%;
 }
 
-.operation button {
-  background-color: orange;
-}
-
 .top {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -81,5 +89,13 @@
 }
 
 .top button.clear {
+  background-color: green;
+}
+
+.top button.clear:hover { background-color: #3e8e41; }
+
+.top button.clear:active {
   background-color: red;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
