@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Operator from './Operator';
 import calculation from '../logic/calculate';
-import DisplayApi from './displayApi';
 
 const Calculator = () => {
   const [objData, setObj] = useState({
@@ -55,7 +54,6 @@ const Calculator = () => {
         </div>
       </div>
 
-      <DisplayApi />
     </>
   );
 };
