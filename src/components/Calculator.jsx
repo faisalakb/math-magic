@@ -35,7 +35,9 @@ const Calculator = () => {
   return (
 
     <>
+
       <Headers />
+      <h2>Lets do some math</h2>
       <div className="calculator">
         <DisplayInp />
         <Operator className="operationContainer" handleClick={setValue} />
