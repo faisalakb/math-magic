@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Headers from './Headers';
 
 const DisplayInp = () => {
   const category = 'success';
@@ -48,12 +49,15 @@ const DisplayInp = () => {
   }
 
   return (
-    <div>
-      <h1>Quote</h1>
-      <ul>
-        <li>{data}</li>
-      </ul>
-    </div>
+    <>
+      <Headers />
+      <div>
+        <h1>Quote</h1>
+        <ul>
+          <li>{data}</li>
+        </ul>
+      </div>
+    </>
   );
 };
 

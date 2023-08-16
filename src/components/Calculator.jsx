@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Operator from './Operator';
 import calculation from '../logic/calculate';
+import Headers from './Headers';
 
 const Calculator = () => {
   const [objData, setObj] = useState({
@@ -34,6 +35,9 @@ const Calculator = () => {
   return (
 
     <>
+
+      <Headers />
+      <h2>Lets do some math</h2>
       <div className="calculator">
         <DisplayInp />
         <Operator className="operationContainer" handleClick={setValue} />

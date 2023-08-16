@@ -42,7 +42,7 @@ The most straightforward approach to initiating a React application is through t
 Phase 2 - Setup2 Branch:
 
 All prerequisites for the second stage of the project, focused on Components, have been met. I have established a designated directory named "components" within the CRA setup, encompassing textual, visual, and stylistic resources. Within this directory, a new file named "Calculator.js" has been created. Subsequently, a React component has been developed to align with the provided design specifications.
-<!-- > Describe your project in 1 or 2 sentences. -->
+ 
 
 ### How to build the "Math-magician" website
 
@@ -90,8 +90,7 @@ All prerequisites for the second stage of the project, focused on Components, ha
   <summary>Server Side / Back-End</summary>
   <ul>
     <li><a href="https://www.json.org/json-en.html">JSON</a></li>
-    <!-- <li><a href=""> - </a></li>
-    <li><a href=""> - </a></li> -->
+  
   </ul>
 </details>
 

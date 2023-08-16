@@ -6,10 +6,12 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   background-color: white;
   width: 400px; /* Adjusted width */
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   position: relative;
+  margin-left: auto;
+  margin-right: 7%;
+  margin-top: 5%;
 }
 
 .calculator input[type="text"] {
@@ -98,4 +100,22 @@
   background-color: red;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+
+.navItems {
+  display: inline-flex;
+  flex-direction: row;
+  column-gap: 20px;
+  list-style: none;
+  float: right;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h1 {
+  display: inline-flex;
+}
+
+.active {
+  color: #666;
 }
